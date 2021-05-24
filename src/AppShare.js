@@ -7,21 +7,31 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { isUri } from 'valid-url';
 import { ReactTinyLink } from 'react-tiny-link';
 import { AppTag } from './AppTags';
-import { Media } from './models/Media';
 import AppConfig from './AppConfig';
+import { Dialog, DialogActionsBar } from "@progress/kendo-react-dialogs";
 
 export class AppShare extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { loggedInUserId: props.loggedInUserId, currentUrl: "", selectedTags: [] }
+    this.state = { loggedInUserId: props.loggedInUserId, currentUrl: "", selectedTags: [], showSuccessPopup: false }
   }
 
   handleSubmit = (formData) => {
-    var newMedia = new Media(null, null, this.state.loggedInUserId, formData.media.title, formData.media.caption, formData.media.url, this.state.selectedTags);
+    // var newMedia = new Media(null, null, this.state.loggedInUserId, formData.media.title, formData.media.caption, formData.media.url, this.state.selectedTags);
+
+    var newMedia = {
+      "Id": 0,
+      "Type": 0,
+      "UserId": this.state.loggedInUserId,
+      "Title": formData.media.title,
+      "Caption": formData.media.caption,
+      "Url": formData.media.url,
+      "Tags": this.state.selectedTags
+    }
 
     if (AppConfig.useApi) {
-      fetch(AppConfig.apiUrl + "/Share/Create", {
+      fetch(AppConfig.apiUrl + "/Share", {
         method: 'POST',
         crossDomain: true,
         headers: { 'Content-Type':'application/json'},
@@ -30,11 +40,34 @@ export class AppShare extends Component {
         body: JSON.stringify(newMedia)
       }).then((result) => {
         // Display success
-        window.location('/Discover');
-      })
-    } else {
-      return false;
+        // window.location('/Discover');
+        this.setState({showSuccessPopup: true});
+      });
     }
+
+    return true;
+  }
+
+  onDialogClose = () => {
+    this.setState({showSuccessPopup: false});
+    window.location = "/Discover";
+  }
+
+  showSuccess = () => {
+    return (
+      <div>
+        <Dialog title={"Delete Data"} onClose={this.onDialogClose}>
+          <div>
+            <p>Media shared successfully!</p>
+          </div>
+          <DialogActionsBar>
+            <button className="k-button k-primary" onClick={this.onDialogClose}>
+              Done
+            </button>
+          </DialogActionsBar>
+        </Dialog>
+      </div>
+    );
   }
 
   validatedInput = (fieldRenderProps) => {
@@ -149,6 +182,7 @@ export class AppShare extends Component {
                 </FormElement>
               )}
             />
+            {this.state.showSuccessPopup && this.showSuccess()}
           </Col>
           <Col xs={12} md={6}>
             <h5>Preview</h5>

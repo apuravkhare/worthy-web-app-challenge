@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "Id": 0,
+            "UserName": "vscode_user"
+        },
+        {
+            "Id": 1,
+            "UserName": "sublime_user"
+        },
+        {
+            "Id": 2,
+            "UserName": "vs_user"
+        },
+        {
+            "Id": 3,
+            "UserName": "notepad_user"
+        },
+        {
+            "Id": 4,
+            "UserName": "binary_user"
+        }
+    ]
+}

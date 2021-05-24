@@ -1,0 +1,444 @@
+{
+  "0": [
+    "Music"
+  ],
+  "1": [
+    "Song"
+  ],
+  "2": [
+    "Show",
+    "Manga"
+  ],
+  "3": [
+    "Book",
+    "Manga",
+    "TV Series",
+    "Live Performance"
+  ],
+  "4": [
+    "Video Game",
+    "Comic",
+    "Comic"
+  ],
+  "5": [
+    "Live-action show",
+    "Movie"
+  ],
+  "6": [
+    "Live-action show",
+    "Video Game"
+  ],
+  "7": [
+    "Album",
+    "Song",
+    "Video Game",
+    "Music"
+  ],
+  "8": [
+    "Comic"
+  ],
+  "9": [
+    "Song",
+    "Song",
+    "Video Game"
+  ],
+  "10": [
+    "Album"
+  ],
+  "11": [
+    "Music"
+  ],
+  "12": [
+    "Live-action show",
+    "Video Game"
+  ],
+  "13": [
+    "Music",
+    "Manga",
+    "Anime",
+    "Art"
+  ],
+  "14": [
+    "Live Performance",
+    "Comic",
+    "Video Game"
+  ],
+  "15": [
+    "Movie",
+    "Show",
+    "Album"
+  ],
+  "16": [
+    "Game",
+    "Game"
+  ],
+  "17": [
+    "Video Game",
+    "Live-action show",
+    "Music"
+  ],
+  "18": [
+    "Anime",
+    "Comic",
+    "TV Series"
+  ],
+  "19": [
+    "Show",
+    "Game",
+    "Live Performance"
+  ],
+  "20": [
+    "Art",
+    "Book",
+    "Live Performance",
+    "Music"
+  ],
+  "21": [
+    "Movie"
+  ],
+  "22": [
+    "Live-action show"
+  ],
+  "23": [
+    "Art",
+    "TV Series"
+  ],
+  "24": [
+    "Song",
+    "Show",
+    "Song",
+    "Music"
+  ],
+  "25": [
+    "Movie"
+  ],
+  "26": [
+    "Book",
+    "TV Series",
+    "TV Series",
+    "Anime"
+  ],
+  "27": [
+    "Song",
+    "Art"
+  ],
+  "28": [
+    "Movie",
+    "Song",
+    "Book",
+    "Video Game"
+  ],
+  "29": [
+    "Live-action show",
+    "Movie",
+    "Music",
+    "Song"
+  ],
+  "30": [
+    "Anime",
+    "Music",
+    "Music"
+  ],
+  "31": [
+    "Anime",
+    "TV Series",
+    "Art"
+  ],
+  "32": [
+    "Live-action show",
+    "Manga",
+    "Comic"
+  ],
+  "33": [
+    "Music"
+  ],
+  "34": [
+    "Live-action show",
+    "Song",
+    "Song",
+    "Show"
+  ],
+  "35": [
+    "Show",
+    "Video Game",
+    "Comic",
+    "Live-action show"
+  ],
+  "36": [
+    "Movie",
+    "Comic",
+    "Comic",
+    "Song"
+  ],
+  "37": [
+    "Book"
+  ],
+  "38": [
+    "Art",
+    "Anime",
+    "Movie"
+  ],
+  "39": [
+    "Music",
+    "Movie",
+    "TV Series"
+  ],
+  "40": [
+    "Book",
+    "TV Series"
+  ],
+  "41": [
+    "Album",
+    "TV Series",
+    "Music",
+    "Anime"
+  ],
+  "42": [
+    "Art",
+    "Anime",
+    "Movie"
+  ],
+  "43": [
+    "Video Game",
+    "Live-action show"
+  ],
+  "44": [
+    "Art",
+    "Music"
+  ],
+  "45": [
+    "Manga",
+    "Book",
+    "Movie"
+  ],
+  "46": [
+    "Album",
+    "Game",
+    "Song"
+  ],
+  "47": [
+    "Album",
+    "Comic"
+  ],
+  "48": [
+    "Music"
+  ],
+  "49": [
+    "Video Game",
+    "Video Game"
+  ],
+  "50": [
+    "Game",
+    "Live-action show",
+    "Comic"
+  ],
+  "51": [
+    "Live-action show"
+  ],
+  "52": [
+    "Live-action show",
+    "Album"
+  ],
+  "53": [
+    "Comic",
+    "Live-action show",
+    "Song"
+  ],
+  "54": [
+    "Movie",
+    "Anime"
+  ],
+  "55": [
+    "Show"
+  ],
+  "56": [
+    "Live Performance",
+    "Video Game",
+    "Anime",
+    "Music"
+  ],
+  "57": [
+    "Movie"
+  ],
+  "58": [
+    "Song",
+    "Music",
+    "Manga",
+    "Art"
+  ],
+  "59": [
+    "Art",
+    "Movie"
+  ],
+  "60": [
+    "Book",
+    "Video Game",
+    "Manga"
+  ],
+  "61": [
+    "Album"
+  ],
+  "62": [
+    "Book"
+  ],
+  "63": [
+    "Song"
+  ],
+  "64": [
+    "Manga"
+  ],
+  "65": [
+    "Movie",
+    "Live-action show"
+  ],
+  "66": [
+    "Video Game",
+    "Anime",
+    "Live-action show"
+  ],
+  "67": [
+    "Art",
+    "Song"
+  ],
+  "68": [
+    "Movie",
+    "Manga",
+    "Manga",
+    "Music"
+  ],
+  "69": [
+    "Video Game",
+    "Comic",
+    "Album",
+    "Live Performance"
+  ],
+  "70": [
+    "Live-action show",
+    "Book",
+    "Anime",
+    "Book"
+  ],
+  "71": [
+    "Art"
+  ],
+  "72": [
+    "Live Performance"
+  ],
+  "73": [
+    "Live Performance"
+  ],
+  "74": [
+    "Album",
+    "Game"
+  ],
+  "75": [
+    "Song",
+    "Book",
+    "TV Series",
+    "Album"
+  ],
+  "76": [
+    "Live-action show",
+    "Video Game"
+  ],
+  "77": [
+    "Video Game",
+    "Album",
+    "Movie",
+    "Comic"
+  ],
+  "78": [
+    "Video Game",
+    "Manga",
+    "Show",
+    "Comic"
+  ],
+  "79": [
+    "Live Performance"
+  ],
+  "80": [
+    "Video Game",
+    "TV Series"
+  ],
+  "81": [
+    "Video Game",
+    "Book"
+  ],
+  "82": [
+    "Anime"
+  ],
+  "83": [
+    "TV Series",
+    "Art"
+  ],
+  "84": [
+    "TV Series",
+    "Manga"
+  ],
+  "85": [
+    "Show",
+    "Live-action show"
+  ],
+  "86": [
+    "Game",
+    "Video Game"
+  ],
+  "87": [
+    "Album"
+  ],
+  "88": [
+    "Music",
+    "Anime",
+    "Art"
+  ],
+  "89": [
+    "Live-action show",
+    "Manga",
+    "Book",
+    "Comic"
+  ],
+  "90": [
+    "Book",
+    "Show",
+    "Anime",
+    "Movie"
+  ],
+  "91": [
+    "Manga",
+    "Movie",
+    "Game",
+    "Album"
+  ],
+  "92": [
+    "Anime"
+  ],
+  "93": [
+    "TV Series"
+  ],
+  "94": [
+    "Music",
+    "TV Series",
+    "Movie",
+    "Book"
+  ],
+  "95": [
+    "Book"
+  ],
+  "96": [
+    "Live-action show",
+    "Art",
+    "TV Series",
+    "Live-action show"
+  ],
+  "97": [
+    "Movie",
+    "Comic"
+  ],
+  "98": [
+    "Game",
+    "Book"
+  ],
+  "99": [
+    "Video Game"
+  ]
+}

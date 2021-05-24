@@ -1,5 +1,5 @@
 const AppConfig = {
-  "useApi": false,
+  "useApi": true,
   "apiUrl": "https://localhost:44351/api"
 };
 

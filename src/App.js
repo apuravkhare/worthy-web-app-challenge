@@ -20,10 +20,10 @@ export default class App extends Component {
         <Router>
           <Switch>
             <Route path="/discover">
-              <AppDiscover loggedInUserId="" />
+              <AppDiscover loggedInUserId={1} />
             </Route>
             <Route path="/share">
-              <AppShare loggedInUserId="" />
+              <AppShare loggedInUserId={1} />
             </Route>
             <Route path="/">
               <Home />

@@ -78,7 +78,7 @@ export class AppDiscover extends Component {
     var dataItem = item.dataItem;
     var user = this.fetchUser(dataItem.userId);
     return (
-      <div key={dataItem.id} className="w-50 mt-4 mb-4" style={{ marginLeft: "25%" }}>
+      <div key={dataItem.id} className="w-75 mt-4 mb-4" style={{ marginLeft: "12%" }}>
         <Card>
           <CardHeader className="k-hbox" style={{ background: 'transparent' }}>
             <Avatar type='image' size='medium' shape='circle'>
